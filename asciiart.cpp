@@ -44,7 +44,7 @@ int main()
     cout << "Program to convert a ppm to ascii art" << endl;
 
     // open the file
-    string infile = "parrot.ppm";
+    string infile = "6colour_ppma.ppm";
     ifstream fin(infile);
     if (!fin) {
         cout << "Error opening " << infile << endl;
